@@ -2,5 +2,12 @@
   "Server": {
     "//": "Listening on that port",
     "ServerPort": "7474"
+  },
+  "Settings": {
+    "Cosmetics": {
+      "//":"Dont change this if you dont know what it do + idk if this even work",
+      "UseExternCosmeticServer": false,
+      "CosmeticServer": ""
+    }
   }
 }

@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const path = require("path");
+const config = require("../config/serverconfig.json");
 
 // News and text under it (page 2) in launcher
 app.get("/public/Launcher/launcher-defaultstrings.json", (req, res) => {
@@ -25,13 +26,18 @@ app.get("/public/fortnite-game.json", (req, res) => {
 
 // List with active skins (Locker)
 app.get("/public/cosmetics.json", (req, res) => {
-  var json = path.join(__dirname, "/../json/cosmetics.json");
-  res.sendFile(json);
+  if (config.Settings.Cosmetics.UseExternCosmeticServer == true) {
+    var server = config.Settings.Cosmetics.CosmeticServer;
+    res.redirect(server);
+  } else {
+    var json = path.join(__dirname, "/../json/cosmetics.json");
+    res.sendFile(json);
+  }
 });
 
 // Keychain for project era (1.11 up to 12.41?)
 app.get("/public/keychain.json", (req, res) => {
-  var json = path.join(__dirname, "/../json/public/keychain.json");
+  var json = path.join(__dirname, "/../json/keychain.json");
   res.sendFile(json);
 });
 
