@@ -1,0 +1,62 @@
+[
+    {
+        "type": "AthenaCharacter",
+        "id": "CID_001_Athena_Commando_F_Default",
+        "variants": []
+    },
+    {
+        "type": "AthenaCharacter",
+        "id": "CID_002_Athena_Commando_F_Default",
+        "variants": []
+    },
+    {
+        "type": "AthenaCharacter",
+        "id": "CID_003_Athena_Commando_F_Default",
+        "variants": []
+    },
+    {
+        "type": "AthenaCharacter",
+        "id": "CID_004_Athena_Commando_F_Default",
+        "variants": []
+    },
+    {
+        "type": "AthenaCharacter",
+        "id": "CID_005_Athena_Commando_M_Default",
+        "variants": []
+    },
+    {
+        "type": "AthenaCharacter",
+        "id": "CID_006_Athena_Commando_M_Default",
+        "variants": []
+    },
+    {
+        "type": "AthenaCharacter",
+        "id": "CID_007_Athena_Commando_M_Default",
+        "variants": []
+    },
+    {
+        "type": "AthenaCharacter",
+        "id": "CID_008_Athena_Commando_M_Default",
+        "variants": []
+    },
+    {
+        "type": "AthenaPickaxe",
+        "id": "DefaultPickaxe",
+        "variants": []
+    },
+    {
+        "type": "AthenaGlider",
+        "id": "DefaultGlider",
+        "variants": []
+    },
+    {
+        "type": "AthenaDance",
+        "id": "EID_DanceMoves",
+        "variants": []
+    },
+    {
+        "type": "AthenaDance",
+        "id": "TOY_001_Basketball",
+        "variants": []
+    }
+]
