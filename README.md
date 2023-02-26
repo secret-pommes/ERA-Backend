@@ -1,5 +1,5 @@
 ### Project Era Custom Backend
-A backend that you can use for modding Era and run it completly offline / without an internet connection
+A backend that you can use for modding Era or just run it completly offline / without an internet connection
 
 
 ### LINK TO PROJECT ERA
