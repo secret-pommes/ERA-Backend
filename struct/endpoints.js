@@ -30,7 +30,7 @@ app.get("/public/cosmetics.json", (req, res) => {
 });
 
 // Keychain for project era (1.11 up to 12.41?)
-app.get("/publickeychain.json", (req, res) => {
+app.get("/public/keychain.json", (req, res) => {
   var json = path.join(__dirname, "/../json/public/keychain.json");
   res.sendFile(json);
 });
