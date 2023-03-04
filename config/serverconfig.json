@@ -9,5 +9,17 @@
       "UseExternCosmeticServer": false,
       "CosmeticServer": ""
     }
+  },
+  "ERA-V1":{
+    "//":"Settings for old releases [Pre, Beta, Release 1.0 - 1.5]",
+    "//":"Change between Alpha, Beta and Release for right contentpages",
+    "//":"If you set Support Old Era to true it means that you can also run old era versions like v1.2",
+    "Support Old Era": false,
+    "ERA-V1 Backend":"http://127.0.0.1:3551", "//":"You will need a backend like lawinserver",
+    "Alpha":false,
+    "Beta":false,
+    "Release": true,
+    "Version":"1.0", "//":"Version of era that you want to use",
+    "Old Contentpages": true
   }
 }
