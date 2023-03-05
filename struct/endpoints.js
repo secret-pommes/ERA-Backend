@@ -26,13 +26,12 @@ app.get("/public/fortnite-game.json", (req, res) => {
 
 // List with active skins (Locker)
 app.get("/public/cosmetics.json", (req, res) => {
-  if (config.Settings.Cosmetics.UseExternCosmeticServer == true) {
-    var server = config.Settings.Cosmetics.CosmeticServer;
-    res.redirect(server);
+  if (config.Settings.Cosmetics.AllCosmetics == true) {
+    var json = path.join(__dirname, "/../json/all_cosmetics.json");
   } else {
     var json = path.join(__dirname, "/../json/cosmetics.json");
-    res.sendFile(json);
   }
+  res.sendFile(json);
 });
 
 // Keychain for project era (1.11 up to 12.41?)
