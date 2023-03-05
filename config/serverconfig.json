@@ -1,7 +1,7 @@
 {
   "Server": {
     "//": "Listening on that port",
-    "ServerPort": "7474"
+    "ServerPort": "7575"
   },
   "Settings": {
     "Cosmetics": {

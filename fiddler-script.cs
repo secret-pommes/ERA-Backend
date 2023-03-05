@@ -12,7 +12,7 @@ class Handlers
                 return;
             }
 
-            oSession.fullUrl = "http://127.0.0.1:7474" + oSession.PathAndQuery;
+            oSession.fullUrl = "http://127.0.0.1:7575" + oSession.PathAndQuery;
         }
         // Captures Era Backend (eracen.danihhhhh)
         if (oSession.hostname.Contains("eracen.danihhhhh.repl.co"))
@@ -23,7 +23,7 @@ class Handlers
                 return;
             }
 
-            oSession.fullUrl = "http://127.0.0.1:7474" + oSession.PathAndQuery;
+            oSession.fullUrl = "http://127.0.0.1:7575" + oSession.PathAndQuery;
         }
     }
 }
